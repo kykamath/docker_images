@@ -15,6 +15,4 @@ RUN  cd /usr/src && \
   tar xzf Python-2.7.12.tgz && \
   cd Python-2.7.12 && \
   ./configure && \
-  make
-
-
+  make install
